@@ -1,0 +1,26 @@
+.title{
+  font-weight: 500;
+  font-size: 24pt;
+  margin: 20px;
+}
+
+mat-form-field{
+  width: 40%;
+}
+
+mat-card{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  background-color: rgb(36, 36, 36);
+}
+
+mat-card-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
