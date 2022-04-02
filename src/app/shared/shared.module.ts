@@ -37,7 +37,7 @@ const modules = [
   MatFormFieldModule,
   MatInputModule,
   MatSnackBarModule,
-  MatGridListModule
+  MatGridListModule,
 ];
 
 @NgModule({

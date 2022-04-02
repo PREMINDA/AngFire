@@ -7,16 +7,8 @@ import {RegistrationFormComponent} from "./registration-form/registration-form.c
 const routes: Routes = [
   {path:'',component:HomePageComponent},
   {
-    path:'registration-group',
-    component:RegistrationGroupPageComponent,
-    children:[
-      {
-        path:'form',
-        component:RegistrationFormComponent
-      }
-    ]
-  },
-
+    path:'login',loadChildren:()=>import('./user/user.module').then(m=>m.UserModule),
+  }
 ];
 
 @NgModule({
