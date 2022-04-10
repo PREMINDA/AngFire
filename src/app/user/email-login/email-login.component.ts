@@ -19,7 +19,7 @@ export class EmailLoginComponent implements OnInit {
   loading = false;
   serverMessage!: string;
 
-  constructor(private afAuth: AngularFireAuth, private fb: FormBuilder,) {
+  constructor(private afAuth: AngularFireAuth, private fb: FormBuilder) {
     form: FormGroup;
   }
 
